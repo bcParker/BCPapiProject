@@ -1,0 +1,62 @@
+body {
+	overflow-x: hidden;
+}
+
+.parallax {
+	background-image: url(assets/eberhard-grossgasteiger-382463-unsplash.jpg);
+	min-height: 850px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.paraText {
+	padding-top: 250px;
+}
+
+.display-4 {
+	font-size: 85px;
+	color: whitesmoke;
+	text-shadow: 3px 3px #607D8B;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.display-3 {
+	padding-top: 200px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 60px;
+}
+
+.display-2 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 30px;
+}
+
+.lead {
+	font-size: 25px;
+	color: whitesmoke;
+	text-shadow: 2px 2px #607D8B
+}
+
+#searchForm {
+	height: 700px;
+	width: 100vw;
+	background-color: #EBEBEB;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+}
+
+.footer {
+padding: 2.5rem 0;
+text-align: center;
+color: white;
+background-color: #607D8B;
+border-top: .05rem solid #e5e5e5;
+}
+
+form {
+	display: block;
+}
