@@ -7,6 +7,7 @@ const submitBtn = document.querySelector('.submit');
 
 function fetchResult(e) {
 	e.preventDefault();
+	console.log(e);
 	url = baseURL + '?key=' + key + '&q=' + searchTerm.value;
 	console.log('URL:', url);
 }
