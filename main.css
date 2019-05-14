@@ -24,11 +24,13 @@ body {
 
 .display-3 {
 	padding-top: 200px;
+	color: whitesmoke;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 60px;
 }
 
 .display-2 {
+	color: whitesmoke;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 30px;
 }
@@ -59,4 +61,14 @@ border-top: .05rem solid #e5e5e5;
 
 form {
 	display: block;
+}
+
+#result {
+	display: block;
+}
+
+article {
+	padding: 10px;
+	margin-bottom: 20px;
+	/* border: 2px solid black; */
 }
