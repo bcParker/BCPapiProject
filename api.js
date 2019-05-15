@@ -29,14 +29,22 @@ function displayResults(json) {
 	console.log('displayResults', json);
 	let photo = json.hits;
 	//console.log(photo[0].largeImageURL);
-	for(i = 0; i < photo.length; i++) {
+	if (photo.length === 0) {
 		let article = document.createElement('article');
-		let current = photo[i];
-		console.log('Current', current);
-		let pic = document.createElement('img');
-		pic.src = photo[i].largeImageURL;
+		let text = docuent.createElement('h2');
+		text.innerText = 'Sorry, there were no results';
+		article.appendChild(text);
 		display.appendChild(article);
-		article.appendChild(pic);
+	} else {
+		for(i = 0; i < photo.length; i++) {
+			let article = document.createElement('article');
+			let current = photo[i];
+			console.log('Current', current);
+			let pic = document.createElement('img');
+			pic.src = photo[i].largeImageURL;
+			display.appendChild(article);
+			article.appendChild(pic);
+		}
 	}
 }
 
